@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "updatedAt": "2026-11-07",
+ "candidates": [
+  {
+   "base": "https://reading.snssdk.com/reading/bookapi/video_tab/video_model/v1/",
+   "extra": {
+    "need_all_video_definition": "1",
+    "video_platform": "1024"
+   }
+  },
+  {
+   "base": "https://reading.snssdk.com/reading/bookapi/video_tab/multi_video_model/v1/",
+   "extra": {
+    "need_all_video_definition": "1",
+    "video_platform": "1024"
+   }
+  }
+ ],
+ "ua": "com.phoenix.read/71332 (Linux; U; Android 16; zh_CN; 25053RT47C; Build/BP2A.250605.031.A3; Cronet/TTNetVersion:04657795 2026-01-23 QuicVersion:c67e9834 2025-09-08)",
+ "attempts": 2,
+ "minUsableTiers": 1
+}
