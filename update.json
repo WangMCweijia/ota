@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "packageName": "com.kunkun.hongguotv",
-  "versionCode": 32,
-  "versionName": "1.2.16",
+  "versionCode": 33,
+  "versionName": "1.2.17",
   "minSdk": 21,
-  "tag": "kotlin-v1.2.16-wb",
+  "tag": "kotlin-v1.2.17-wb",
   "apk": {
-    "name": "hongguotv-kotlin-1.2.16-android8.apk",
-    "size": 2944670,
-    "sha256": "5d987cf09fd0ee938614688938a83c85f8b074d01803bc5ac501a97fbf66d989"
+    "name": "hongguotv-kotlin-1.2.17-android8.apk",
+    "size": 2944733,
+    "sha256": "2a0d9470b7a8966469256a33117754994d5e33b53036fe3c689300ddc4696a47"
   },
-  "notes": "1.2.16：打通应用内自动更新（清单与安装包迁至公共仓库，多入口可达）；合入签名三层防线；播放与选档行为与 1.2.15 一致。"
+  "notes": "1.2.17：修复设置页找不到「版本与更新」入口（此前按钮为空实现，点它没反应）；现在设置页右下角即入口，可查看当前版本、手动检查更新、开关自动检查。播放与选档行为与 1.2.16 一致。"
 }
