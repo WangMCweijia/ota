@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "packageName": "com.hongguo.shortplay",
+  "versionCode": 30,
+  "versionName": "1.0.28",
+  "minSdk": 21,
+  "tag": "phone-v1.0.28",
+  "apk": {
+    "name": "hongguophone-1.0.28-android8.apk",
+    "size": 4337012,
+    "sha256": "f4d7a047c4fff8a229fc0f5dae48a7b833760c3179f33ff408e9094f315be3d2"
+  },
+  "notes": "1.0.28（beta）：新增应用内更新。设置 → 关于 → 版本与更新，可查看当前版本、手动检查、下载并安装；自动检查默认开启，6 小时最多一次，播放中不打扰。安装前会校验 sha256 与签名，收藏与观看记录保留。"
+}
