@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "packageName": "com.hongguo.shortplay",
-  "versionCode": 31,
-  "versionName": "1.0.29",
+  "versionCode": 32,
+  "versionName": "1.0.30",
   "minSdk": 21,
-  "tag": "phone-v1.0.29",
+  "tag": "phone-v1.0.30",
   "apk": {
-    "name": "hongguophone-1.0.29-android8.apk",
-    "size": 4337761,
-    "sha256": "19a9e3b66bdf756a345900366b5c59c6920b557374f4ed789aa964b606bd241a"
+    "name": "hongguophone-1.0.30-android8.apk",
+    "size": 4337762,
+    "sha256": "4dc9c79b968278b75944193d56fb7f0ea65b604cb58a9223e6e2c2ef1693180a"
   },
-  "notes": "1.0.29（beta）：更新入口修好了。我的页「关于」改为「版本与更新」，点开就是更新对话框：查看当前版本、检查/下载/安装、自动更新开关（默认开，6 小时最多一次，播放中不打扰）。安装前校验 sha256 与签名，收藏与观看记录保留。"
+  "notes": "1.0.30（beta）：无功能改动，仅用于演练升级链路（下载 + sha256/签名校验 + 系统安装）。安装后收藏与观看记录保留。"
 }
