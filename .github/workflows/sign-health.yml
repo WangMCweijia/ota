@@ -2,6 +2,8 @@ name: sign-service-health
 
 # L3 代签服务的可用性探活。
 # 每 30 分钟一次，3 次重试都失败才告警——单次抖动（隧道重建、CF 边缘切换）不该吵人。
+# 2026-11-16 起主用地址是 Cloudflare Worker（sign. 子域）；根域名的隧道版保留为人工回滚手段，
+# 但客户端读的是 config.json 的 signService，探根域名通过也没意义，所以这里只探主用地址。
 # 服务只是兜底链路，挂了不影响正常播放，所以告警开成 issue 而不是刷屏通知。
 
 on:
@@ -24,7 +26,7 @@ jobs:
       - name: 探测 /healthz
         run: |
           set -uo pipefail
-          URL="https://s7k2m9x.dpdns.org/healthz"
+          URL="https://sign.s7k2m9x.dpdns.org/healthz"
           for i in 1 2 3; do
             echo "--- 第 $i 次 ---"
             if body=$(curl -fsS --max-time 20 "$URL"); then
