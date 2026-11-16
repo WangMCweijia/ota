@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "packageName": "com.kunkun.hongguotv",
-  "versionCode": 34,
-  "versionName": "2.0.0",
+  "versionCode": 35,
+  "versionName": "2.0.1",
   "minSdk": 21,
-  "tag": "kotlin-v2.0.0-wb",
+  "tag": "kotlin-v2.0.1-wb",
   "apk": {
-    "name": "hongguotv-kotlin-2.0.0-android8.apk",
-    "size": 2945173,
-    "sha256": "2bc81af9eba87e570a619cef62d6a78cf963561ea85721cb38a2318725cfe490"
+    "name": "hongguotv-kotlin-2.0.1-android8.apk",
+    "size": 2945774,
+    "sha256": "96a07d59eedec9159fa924f638aeff6d2c28605fc74effc9550e24586f7fe70b"
   },
-  "notes": "2.0.0：修复全端无法播放。根因是设备身份被服务端风控清理（不是接口失效），且 11-02 迁移到 video_tab 时摘掉了「身份被拒 → 重新注册」的自愈链，导致身份一死就永久播不了。本次换新兜底档案并恢复自愈，起播与 1080P 正常。必须升级。"
+  "notes": "2.0.1：把客户端版本档案（UA + 版本号 + os 版本）改成可远端下发，官方抬最低支持版本时改配置即可，不必发版。播放行为与 2.0.0 一致，建议升级。"
 }
