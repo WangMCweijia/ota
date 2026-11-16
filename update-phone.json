@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "packageName": "com.hongguo.shortplay",
-  "versionCode": 33,
-  "versionName": "2.0.0",
+  "versionCode": 34,
+  "versionName": "2.0.1",
   "minSdk": 21,
-  "tag": "phone-v2.0.0",
+  "tag": "phone-v2.0.1",
   "apk": {
-    "name": "hongguophone-2.0.0-android8.apk",
-    "size": 4337673,
-    "sha256": "350b819e9cfbf028108900f895e7318d260dea74dcd0ee4eab4b9c950c49fb6d"
+    "name": "hongguophone-2.0.1-android8.apk",
+    "size": 4338950,
+    "sha256": "3f18be4a0eced7ec87eeb17d3e58d2867952da1bd5ea1f5a8bfbd06120e62594"
   },
-  "notes": "2.0.0：修复全端无法播放（与 TV 端同一根因：设备身份被风控清理 + 自愈链在 11-02 迁移时被摘掉）。本次换新兜底档案并恢复自愈。必须升级。"
+  "notes": "2.0.1：同步 TV 端 core —— 版本档案可远端下发，官方抬最低支持版本时改配置即可。UI 与播放行为未变。"
 }
