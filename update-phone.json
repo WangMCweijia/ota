@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "packageName": "com.hongguo.shortplay",
-  "versionCode": 34,
-  "versionName": "2.0.1",
+  "versionCode": 35,
+  "versionName": "2.0.2",
   "minSdk": 21,
-  "tag": "phone-v2.0.1",
+  "tag": "phone-v2.0.2",
   "apk": {
-    "name": "hongguophone-2.0.1-android8.apk",
-    "size": 4338950,
-    "sha256": "3f18be4a0eced7ec87eeb17d3e58d2867952da1bd5ea1f5a8bfbd06120e62594"
+    "name": "hongguophone-2.0.2-android8.apk",
+    "size": 4342646,
+    "sha256": "b78b663c3ce7ca31ca4b2f77aaec983c37af85e916de0daf8c7a4066e8969d08"
   },
-  "notes": "2.0.1：同步 TV 端 core —— 版本档案可远端下发，官方抬最低支持版本时改配置即可。UI 与播放行为未变。"
+  "notes": "2.0.2：同步 TV 端 v5 播放签名 —— 官方 11-16 起旧版一律返回空响应，本版恢复播放。UI 未变。"
 }
