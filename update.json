@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "packageName": "com.kunkun.hongguotv",
-  "versionCode": 37,
-  "versionName": "2.0.3",
+  "versionCode": 38,
+  "versionName": "2.0.4",
   "minSdk": 21,
-  "tag": "kotlin-v2.0.3-wb",
+  "tag": "kotlin-v2.0.4-wb",
   "apk": {
-    "name": "hongguotv-kotlin-2.0.3-android8.apk",
-    "size": 2952716,
-    "sha256": "243d588ccbc686a7ea84e745eb92452b8f9b493bbe612eb24f341ad5a75a80a0"
+    "name": "hongguotv-kotlin-2.0.4-android8.apk",
+    "size": 2953365,
+    "sha256": "e91bc2178788c4e232f10d7efbfb7cad15ac9b9ec5bb3d5c6227d76e452b8c16"
   },
-  "notes": "2.0.3：把 v5 的版本档案（UA/版本号/os/机型/channel）纳入远端下发，官方抬 v5 版本门槛时改配置即可，不必发版；L3 代签同步移植 v5。播放行为与 2.0.2 一致。"
+  "notes": "2.0.4：官方关闭单集取址入口（HTTP 200 + 0 字节），改为单集空体时用同一套 v5 签名打 GET video_tab 接管；实测 5 档 1080P、取流 206。解码侧无改动。"
 }
