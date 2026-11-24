@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-24",
   "candidates": [
     {
       "base": "https://reading.snssdk.com/reading/bookapi/video_tab/video_model/v1/",
@@ -26,11 +26,12 @@
   "minUsableTiers": 1,
   "signService": "https://sign.s7k2m9x.dpdns.org",
   "v5Version": {
-    "code": "74332",
-    "name": "7.4.3.32",
-    "osVersion": "12",
-    "deviceType": "PGT-AN10",
-    "channel": "vivo_8662_64",
-    "ua": "com.phoenix.read/73932 (Linux; U; Android 12; zh_CN_#Hans; PGT-AN10; Build/V417IR;tt-ok/3.12.13.20)"
+    "code": "74532",
+    "name": "7.4.5.32",
+    "osVersion": "16",
+    "osApi": "36",
+    "deviceType": "25053RT47C",
+    "channel": "update_64",
+    "ua": "com.phoenix.read/74532 (Linux; U; Android 16; zh_CN_#Hans; 25053RT47C; Build/V417IR;tt-ok/3.12.13.20)"
   }
 }
