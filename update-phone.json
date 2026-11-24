@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "packageName": "com.hongguo.shortplay",
-  "versionCode": 37,
-  "versionName": "2.0.4",
+  "versionCode": 39,
+  "versionName": "2.0.6",
   "minSdk": 21,
-  "tag": "phone-v2.0.4",
+  "tag": "phone-v2.0.6",
   "apk": {
-    "name": "hongguophone-2.0.4-android8.apk",
-    "size": 4345150,
-    "sha256": "0c8218f4b0a92e16093fcba482f0b81a831895df0f2823bc29e7a0cbd4ab22d1"
+    "name": "hongguophone-2.0.6-android8.apk",
+    "size": 4345925,
+    "sha256": "c496320e11951b52b2e837f38c69cbe9e808cd071b815455d526f7a78f71d14d"
   },
-  "notes": "2.0.4：同步 TV 端修复（单集空体 → v5 签 GET video_tab）。UI 未变。"
+  "notes": "2.0.6：同步 Worker 取址主路径。Worker 不可达时行为与 2.0.4 一致，UI 未改。"
 }
