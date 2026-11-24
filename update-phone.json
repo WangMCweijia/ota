@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "packageName": "com.hongguo.shortplay",
-  "versionCode": 39,
-  "versionName": "2.0.6",
+  "versionCode": 40,
+  "versionName": "2.0.7",
   "minSdk": 21,
-  "tag": "phone-v2.0.6",
+  "tag": "phone-v2.0.7",
   "apk": {
-    "name": "hongguophone-2.0.6-android8.apk",
-    "size": 4345925,
-    "sha256": "c496320e11951b52b2e837f38c69cbe9e808cd071b815455d526f7a78f71d14d"
+    "name": "hongguophone-2.0.7-android8.apk",
+    "size": 4346356,
+    "sha256": "bb350881f47a6e308f939bb9bb8ec15f4ffff604b13152a3fb5be9d6ca53c5c7"
   },
-  "notes": "2.0.6：同步 Worker 取址主路径。Worker 不可达时行为与 2.0.4 一致，UI 未改。"
+  "notes": "2.0.7：同步 core 的取址熔断半开策略，Worker 恢复后自动接回远端取址。UI 未改。"
 }
