@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "packageName": "com.kunkun.hongguotv",
-  "versionCode": 40,
-  "versionName": "2.0.6",
+  "versionCode": 41,
+  "versionName": "2.0.7",
   "minSdk": 21,
-  "tag": "kotlin-v2.0.6-wb",
+  "tag": "kotlin-v2.0.7-wb",
   "apk": {
-    "name": "hongguotv-kotlin-2.0.6-android8.apk",
-    "size": 2954150,
-    "sha256": "73eba46ae8a30de8b73543dc381dd266fe004f49daf1e0c327531dda6a65c355"
+    "name": "hongguotv-kotlin-2.0.7-android8.apk",
+    "size": 2954232,
+    "sha256": "90cc8fec95d19025afec6ff78277104e71ebc016aea4b2d888edffa3e355436f"
   },
-  "notes": "2.0.6：取址上移 Worker，入口/field21/档案变成运行时变量。协议再变时服务端改一个键即可自愈，不需要发版、不需要升级。"
+  "notes": "2.0.7：取址熔断由「本进程永久短路」改为 5 分钟半开，Worker 修好后能自动接回；网络异常也计入失败，不再每集白等超时。Worker 侧巡检新增取流验证，能发现「接口正常但 CDN 死了」。界面无变化。"
 }
