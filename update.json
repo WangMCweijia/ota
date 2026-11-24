@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "packageName": "com.kunkun.hongguotv",
-  "versionCode": 38,
-  "versionName": "2.0.4",
+  "versionCode": 40,
+  "versionName": "2.0.6",
   "minSdk": 21,
-  "tag": "kotlin-v2.0.4-wb",
+  "tag": "kotlin-v2.0.6-wb",
   "apk": {
-    "name": "hongguotv-kotlin-2.0.4-android8.apk",
-    "size": 2953365,
-    "sha256": "e91bc2178788c4e232f10d7efbfb7cad15ac9b9ec5bb3d5c6227d76e452b8c16"
+    "name": "hongguotv-kotlin-2.0.6-android8.apk",
+    "size": 2954150,
+    "sha256": "73eba46ae8a30de8b73543dc381dd266fe004f49daf1e0c327531dda6a65c355"
   },
-  "notes": "2.0.4：官方关闭单集取址入口（HTTP 200 + 0 字节），改为单集空体时用同一套 v5 签名打 GET video_tab 接管；实测 5 档 1080P、取流 206。解码侧无改动。"
+  "notes": "2.0.6：取址上移 Worker，入口/field21/档案变成运行时变量。协议再变时服务端改一个键即可自愈，不需要发版、不需要升级。"
 }
